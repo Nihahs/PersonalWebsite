@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Shahin Kamarudeen | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Floating particles background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Custom cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="logo-text">M</span>
+            <span class="logo-dot"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#life" class="nav-link">Life</a></li>
+            <li><a href="#contact" class="nav-link">Connect</a></li>
+        </ul>
+        <div class="nav-toggle" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-greeting">
+                <span class="greeting-tamil">வணக்கம்</span>
+                <span class="greeting-divider">•</span>
+                <span class="greeting-english">Hello World</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">I'm <span class="highlight">Shahin</span></span>
+                <span class="title-line">Software Engineer</span>
+            </h1>
+            <p class="hero-fullname">Mohammed Shahin Kamarudeen</p>
+            <p class="hero-tagline">
+                An <span class="apple-fan"><span class="apple-icon"></span> Apple</span> enthusiast writing code at
+                <span class="microsoft">Microsoft</span>.
+                <br>
+                <em class="pun">Yes, I contain multitudes... and bugs. 🐛</em>
+            </p>
+            <div class="hero-cta">
+                <a href="#about" class="btn btn-primary">
+                    <span>Discover My Story</span>
+                    <svg viewBox="0 0 24 24" class="btn-arrow">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="avatar-container">
+                <div class="avatar-ring"></div>
+                <div class="avatar-ring ring-2"></div>
+                <div class="avatar-ring ring-3"></div>
+                <div class="avatar-emoji">👨‍💻</div>
+            </div>
+            <div class="floating-elements">
+                <div class="float-item chess">♟️</div>
+                <div class="float-item book">📚</div>
+                <div class="float-item cat">🐱</div>
+                <div class="float-item cat-2">🐱</div>
+                <div class="float-item code">&lt;/&gt;</div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">
+                    A proud <span class="highlight-tamil">Tamil</span> soul, navigating the tech world one semicolon at
+                    a time.
+                </p>
+                <p>
+                    I'm a software engineer who believes the best code is like a good pun –
+                    <em>it takes a moment to get, but once you do, you can't help but appreciate it.</em>
+                </p>
+                <p>
+                    Currently crafting digital experiences at <strong>Microsoft</strong>, while secretly wishing
+                    every device had that satisfying Apple ecosystem feel. Call it professional irony,
+                    I call it <em>"working both sides of the aisle"</em>. 😄
+                </p>
+                <div class="fun-fact">
+                    <span class="fact-icon">💡</span>
+                    <p><strong>Fun Fact:</strong> I've spent 15 years being "Chennai-fied" before moving to
+                        Hyderabad 2 years ago. Still miss the filter coffee AND the biryani! 🍛
+                        <br><em>Hot take: Tamil Nadu biryani > Hyderabadi biryani. I said what I said. 🔥</em>
+                    </p>
+                </div>
+            </div>
+            <div class="about-cards">
+                <div class="info-card">
+                    <div class="card-icon">📍</div>
+                    <h3>Based In</h3>
+                    <p>Hyderabad, India</p>
+                    <span class="card-detail">2 years & counting</span>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">💼</div>
+                    <h3>Working At</h3>
+                    <p>Microsoft</p>
+                    <span class="card-detail">Building the future</span>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">🏠</div>
+                    <h3>Originally From</h3>
+                    <p>Chennai</p>
+                    <span class="card-detail">15 years of memories</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Life Section -->
+    <section id="life" class="life">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">Life Beyond Code</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="life-grid">
+            <!-- Chess Card -->
+            <div class="life-card chess-card">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <div class="card-emoji">♟️</div>
+                    <h3>Chess Enthusiast</h3>
+                    <p>Life is like chess – I'm always thinking
+                        <em>knight</em> moves ahead.
+                        <br><small>(Okay, sometimes just one move... and it's usually wrong)</small>
+                    </p>
+                    <div class="chess-board">
+                        <div class="chess-piece">♔</div>
+                        <div class="chess-piece">♕</div>
+                        <div class="chess-piece">♖</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Culture Card -->
+            <div class="life-card culture-card">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <div class="card-emoji">🎬📚🎵</div>
+                    <h3>Culture Enthusiast</h3>
+                    <p>Lost in the worlds of <em>Douglas Adams</em>, <em>Wodehouse</em> & <em>Murakami</em>.
+                        <br>Vibing to <em>AR Rahman</em> & <em>The Beatles</em>.
+                        <br>In awe of <em>Mani Ratnam</em> & <em>Kamal Haasan</em>.
+                    </p>
+                    <div class="culture-icons">
+                        <span>🎭</span>
+                        <span>🎸</span>
+                        <span>📖</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cats Card -->
+            <div class="life-card cats-card">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <div class="card-emoji">🐱🐱</div>
+                    <h3>Cat Dad x2</h3>
+                    <p>Two cats, infinite chaos, zero regrets.
+                        <br>They're the real senior engineers at home –
+                        <em>always reviewing my work (by sitting on my keyboard)</em>.
+                    </p>
+                    <div class="paw-prints">
+                        <span>🐾</span>
+                        <span>🐾</span>
+                        <span>🐾</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Love Story Card -->
+            <div class="life-card love-card">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <div class="card-emoji">💑</div>
+                    <h3>Cross-Cultural Love</h3>
+                    <p>Married to my beautiful Urdu-speaking, Goa-raised partner.
+                        <br>Our home is where <span class="tamil-word">தமிழ்</span> meets
+                        <span class="urdu-word">اردو</span>,
+                        <br>filter coffee meets chai, and love speaks all languages.
+                    </p>
+                    <div class="hearts">
+                        <span class="heart">❤️</span>
+                        <span class="heart">❤️</span>
+                        <span class="heart">❤️</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pun Corner -->
+        <div class="pun-corner">
+            <h3>🎭 Pun of the Day</h3>
+            <div class="pun-display">
+                <p id="daily-pun">"I told my wife she was drawing her eyebrows too high. She looked surprised."</p>
+                <button class="pun-btn" id="new-pun">Another one! 🎲</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Timeline -->
+    <section class="journey">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">My Journey</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">Chennai Era</span>
+                    <h3>15 Years of Marina Sunsets</h3>
+                    <p>Where it all began. Filter coffee mornings, cricket evenings,
+                        and the eternal debate of which biryani is better (spoiler: all of them).</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">The Move</span>
+                    <h3>Chennai → Hyderabad</h3>
+                    <p>Traded Marina Beach for Hussain Sagar. New city, new adventures,
+                        same love for good food and better code.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">Present Day</span>
+                    <h3>Living the Dream in Hyderabad</h3>
+                    <p>2 years in, and I've embraced the Hyderabadi life.
+                        Now fluent in "Nakko" and completely addicted to Irani chai.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-line"></div>
+            </div>
+            <p class="contact-intro">
+                Whether you want to discuss code, chess strategies, book recommendations,
+                or just share a good pun – I'm all ears!
+                <br><em>(My cats might judge you though)</em>
+            </p>
+            <div class="contact-links">
+                <a href="mailto:hello@moka.dev" class="contact-card">
+                    <span class="contact-icon">📧</span>
+                    <span class="contact-text">Email Me</span>
+                </a>
+                <a href="https://linkedin.com" class="contact-card" target="_blank">
+                    <span class="contact-icon">💼</span>
+                    <span class="contact-text">LinkedIn</span>
+                </a>
+                <a href="https://github.com" class="contact-card" target="_blank">
+                    <span class="contact-icon">🐙</span>
+                    <span class="contact-text">GitHub</span>
+                </a>
+                <a href="https://twitter.com" class="contact-card" target="_blank">
+                    <span class="contact-icon">🐦</span>
+                    <span class="contact-text">Twitter</span>
+                </a>
+            </div>
+        </div>
+        <div class="contact-visual">
+            <div class="coffee-animation">
+                <div class="cup">
+                    <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <p>Let's grab a coffee ☕<br><small>(or discuss Hitchhiker's Guide!)</small></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                Crafted with ❤️ and probably too much ☕ in Hyderabad
+            </p>
+            <p class="footer-pun">
+                "Why do programmers prefer dark mode? Because light attracts bugs!" 🐛
+            </p>
+            <p class="footer-copy">© 2026 Mohammed Shahin Kamarudeen. All puns intended.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

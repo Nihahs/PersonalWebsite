@@ -1,5 +1,5 @@
 /* ============================================
-   MOKA'S PERSONAL WEBSITE - JAVASCRIPT
+   SHAHIN'S PERSONAL WEBSITE - JAVASCRIPT
    Making everything come alive! ✨
    ============================================ */
 
@@ -165,9 +165,9 @@ function initNavigation() {
     // Navbar background on scroll
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            navbar.style.background = 'rgba(15, 15, 26, 0.95)';
+            navbar.style.background = 'rgba(250, 250, 248, 0.98)';
         } else {
-            navbar.style.background = 'rgba(15, 15, 26, 0.8)';
+            navbar.style.background = 'rgba(250, 250, 248, 0.9)';
         }
     });
 }
@@ -347,7 +347,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 function activateEasterEgg() {
-    // Fun surprise!
+    // Fun surprise - bold, vibrant colors that pop against zen theme!
     document.body.style.animation = 'rainbow 2s linear';
 
     const surprise = document.createElement('div');
@@ -357,25 +357,29 @@ function activateEasterEgg() {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: var(--bg-card);
-            padding: 2rem;
-            border-radius: 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 2.5rem;
+            border-radius: 24px;
             text-align: center;
             z-index: 10000;
-            border: 2px solid var(--primary);
-            box-shadow: 0 0 60px var(--primary);
+            border: 3px solid #ff6b6b;
+            box-shadow: 0 0 80px rgba(255, 107, 107, 0.5), 0 0 120px rgba(139, 92, 246, 0.3);
         ">
-            <h2 style="font-size: 2rem; margin-bottom: 1rem;">🎉 You found the Easter Egg! 🎉</h2>
-            <p style="color: var(--text-secondary);">You're clearly a person of culture.<br>Here's a virtual high-five! ✋</p>
+            <h2 style="font-size: 2rem; margin-bottom: 1rem; color: #fff; text-shadow: 0 0 20px rgba(255, 107, 107, 0.8);">🎉 You found the Easter Egg! 🎉</h2>
+            <p style="color: #c4b5fd; font-size: 1.1rem;">You're clearly a person of culture.<br>Here's a virtual high-five! ✋</p>
             <button onclick="this.parentElement.parentElement.remove()" style="
-                margin-top: 1rem;
-                padding: 0.5rem 1rem;
-                background: var(--gradient-primary);
+                margin-top: 1.5rem;
+                padding: 0.75rem 1.5rem;
+                background: linear-gradient(135deg, #ff6b6b 0%, #f06595 50%, #cc5de8 100%);
                 border: none;
-                border-radius: 20px;
+                border-radius: 25px;
                 color: white;
+                font-weight: 600;
+                font-size: 1rem;
                 cursor: pointer;
-            ">Nice! 🎊</button>
+                box-shadow: 0 4px 20px rgba(255, 107, 107, 0.4);
+                transition: transform 0.2s, box-shadow 0.2s;
+            " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 30px rgba(255, 107, 107, 0.6)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 20px rgba(255, 107, 107, 0.4)';">Nice! 🎊</button>
         </div>
     `;
     document.body.appendChild(surprise);
@@ -399,7 +403,7 @@ document.head.appendChild(style);
    CONSOLE MESSAGE
    ============================================ */
 console.log(`
-%c🚀 Welcome to Moka's Personal Website! 🚀
+%c🚀 Welcome to Shahin's Personal Website! 🚀
 %c
 Hey there, fellow developer! 👋
 
@@ -413,10 +417,10 @@ Here are some things you might find interesting:
 
 Feel free to connect with me! 
 
-— Moka
+— Shahin
 
 P.S. Why do programmers prefer dark mode? Because light attracts bugs! 🐛
 `,
-    'color: #6366f1; font-size: 20px; font-weight: bold;',
-    'color: #a1a1aa; font-size: 12px;'
+    'color: #ff6b6b; font-size: 20px; font-weight: bold;',
+    'color: #c4b5fd; font-size: 12px;'
 );

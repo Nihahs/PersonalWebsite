@@ -4,6 +4,7 @@
    ============================================ */
 
 /* CSS Variables - The Color Palette */
+/* DEFAULT / MODERN THEME */
 :root {
     /* Primary Colors */
     --primary: #6366f1;
@@ -37,7 +38,175 @@
 
     /* Apple-esque */
     --apple-silver: #a3a3a3;
+}
 
+/* ============================================
+   THEME: CLASSIC (VINTAGE)
+   Warm, nostalgic colors with sepia tones
+   ============================================ */
+[data-theme="classic"] {
+    /* Primary Colors - Deep burgundy/wine */
+    --primary: #8b4557;
+    --primary-light: #a85a6d;
+    --primary-dark: #6d3344;
+
+    /* Accent Colors - Vintage palette */
+    --accent-orange: #c9a227;
+    --accent-pink: #d4a574;
+    --accent-teal: #5e7e6b;
+    --accent-amber: #b8860b;
+
+    /* Neutrals - Warm sepia tones */
+    --bg-dark: #1a1612;
+    --bg-card: #2a241e;
+    --bg-card-hover: #3a332b;
+    --text-primary: #f5e6d3;
+    --text-secondary: #c4b49a;
+    --text-muted: #8a7a66;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #8b4557 0%, #6d3344 50%, #c9a227 100%);
+    --gradient-hero: linear-gradient(180deg, #1a1612 0%, #2a241e 100%);
+    --gradient-card: linear-gradient(145deg, rgba(139, 69, 87, 0.15) 0%, rgba(201, 162, 39, 0.08) 100%);
+
+    /* Microsoft Colors */
+    --ms-blue: #4a6fa5;
+    --ms-green: #6b8e5a;
+    --ms-yellow: #c9a227;
+    --ms-red: #a85a5a;
+
+    /* Apple-esque */
+    --apple-silver: #b8a88a;
+}
+
+/* ============================================
+   THEME: MODERN
+   Clean, minimal with electric accents
+   ============================================ */
+[data-theme="modern"] {
+    /* Primary Colors - Electric blue */
+    --primary: #0ea5e9;
+    --primary-light: #38bdf8;
+    --primary-dark: #0284c7;
+
+    /* Accent Colors - Bold & clean */
+    --accent-orange: #f43f5e;
+    --accent-pink: #d946ef;
+    --accent-teal: #22d3ee;
+    --accent-amber: #fbbf24;
+
+    /* Neutrals - Pure dark mode */
+    --bg-dark: #09090b;
+    --bg-card: #18181b;
+    --bg-card-hover: #27272a;
+    --text-primary: #fafafa;
+    --text-secondary: #a1a1aa;
+    --text-muted: #52525b;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #0ea5e9 0%, #22d3ee 50%, #d946ef 100%);
+    --gradient-hero: linear-gradient(180deg, #09090b 0%, #18181b 100%);
+    --gradient-card: linear-gradient(145deg, rgba(14, 165, 233, 0.1) 0%, rgba(34, 211, 238, 0.05) 100%);
+
+    /* Microsoft Colors */
+    --ms-blue: #0ea5e9;
+    --ms-green: #22c55e;
+    --ms-yellow: #fbbf24;
+    --ms-red: #f43f5e;
+
+    /* Apple-esque */
+    --apple-silver: #71717a;
+}
+
+/* ============================================
+   THEME: CREATIVE
+   Bold, artistic, gradient-heavy
+   ============================================ */
+[data-theme="creative"] {
+    /* Primary Colors - Vibrant coral/orange */
+    --primary: #ff6b6b;
+    --primary-light: #ff8787;
+    --primary-dark: #f03e3e;
+
+    /* Accent Colors - Playful & bold */
+    --accent-orange: #ffd43b;
+    --accent-pink: #f06595;
+    --accent-teal: #20c997;
+    --accent-amber: #ff922b;
+
+    /* Neutrals - Deep purple-black */
+    --bg-dark: #12071f;
+    --bg-card: #1e1233;
+    --bg-card-hover: #2d1b4e;
+    --text-primary: #ffffff;
+    --text-secondary: #c4b5fd;
+    --text-muted: #7c6b9e;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #ff6b6b 0%, #f06595 33%, #cc5de8 66%, #845ef7 100%);
+    --gradient-hero: linear-gradient(180deg, #12071f 0%, #1e1233 50%, #2d1b4e 100%);
+    --gradient-card: linear-gradient(145deg, rgba(255, 107, 107, 0.15) 0%, rgba(132, 94, 247, 0.1) 100%);
+
+    /* Microsoft Colors */
+    --ms-blue: #339af0;
+    --ms-green: #51cf66;
+    --ms-yellow: #ffd43b;
+    --ms-red: #ff6b6b;
+
+    /* Apple-esque */
+    --apple-silver: #c4b5fd;
+}
+
+/* ============================================
+   THEME: ZEN (MINIMALISTIC)
+   Clean, calm, inspired by Japanese aesthetics
+   ============================================ */
+[data-theme="zen"] {
+    /* Primary Colors - Soft stone/ink */
+    --primary: #5c6370;
+    --primary-light: #7a8291;
+    --primary-dark: #3e4451;
+
+    /* Accent Colors - Nature-inspired, muted */
+    --accent-orange: #d19a66;
+    --accent-pink: #c8a2c8;
+    --accent-teal: #88b7a1;
+    --accent-amber: #c9b97a;
+
+    /* Neutrals - Paper & ink */
+    --bg-dark: #fafaf8;
+    --bg-card: #f0eeeb;
+    --bg-card-hover: #e8e6e3;
+    --text-primary: #2d2d2d;
+    --text-secondary: #5c5c5c;
+    --text-muted: #8a8a8a;
+
+    /* Gradients - Subtle, almost flat */
+    --gradient-primary: linear-gradient(135deg, #5c6370 0%, #7a8291 100%);
+    --gradient-hero: linear-gradient(180deg, #fafaf8 0%, #f0eeeb 100%);
+    --gradient-card: linear-gradient(145deg, rgba(92, 99, 112, 0.05) 0%, rgba(136, 183, 161, 0.03) 100%);
+
+    /* Microsoft Colors - Muted versions */
+    --ms-blue: #6b9dbd;
+    --ms-green: #88b7a1;
+    --ms-yellow: #c9b97a;
+    --ms-red: #c97a7a;
+
+    /* Apple-esque */
+    --apple-silver: #8a8a8a;
+}
+
+/* Zen theme specific overrides for better contrast */
+[data-theme="zen"] .cursor {
+    background: #2d2d2d;
+}
+
+[data-theme="zen"] {
+    --navbar-bg: rgba(250, 250, 248, 0.9);
+    --navbar-border: rgba(0, 0, 0, 0.08);
+}
+
+:root {
     /* Spacing */
     --space-xs: 0.5rem;
     --space-sm: 1rem;
@@ -170,9 +339,9 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    background: rgba(15, 15, 26, 0.8);
+    background: var(--navbar-bg, rgba(15, 15, 26, 0.8));
     backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(99, 102, 241, 0.1);
+    border-bottom: 1px solid var(--navbar-border, rgba(99, 102, 241, 0.1));
 }
 
 .nav-logo {

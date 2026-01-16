@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>{% include head.html %}</head>
+<body class="{{ page.layout }}{% if page.url contains '/blog/' %} blog{% endif %}" data-theme="zen">
+    <!-- Floating particles background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Custom cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    {% include header.html %}
+    <main>{{ content }}</main>
+    {% include footer.html %}
+    <script src="/script.js"></script>
+</body>
+</html>

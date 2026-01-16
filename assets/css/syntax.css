@@ -1,0 +1,140 @@
+/* Rouge Syntax Highlighting - Zen Theme */
+
+.highlight {
+    background: var(--bg-card);
+    border-radius: 12px;
+    margin: var(--space-md) 0;
+}
+
+.highlight pre {
+    margin: 0;
+    padding: var(--space-md);
+}
+
+/* Base text color */
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cp,
+.highlight .cs {
+    color: #6c7086;
+    font-style: italic;
+}
+
+/* Keywords */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+    color: #cba6f7;
+    font-weight: 600;
+}
+
+/* Strings */
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .ss {
+    color: #a6e3a1;
+}
+
+/* Numbers */
+.highlight .m,
+.highlight .mb,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .mx,
+.highlight .il {
+    color: #fab387;
+}
+
+/* Names/Variables */
+.highlight .n,
+.highlight .na,
+.highlight .nb,
+.highlight .nc,
+.highlight .nd,
+.highlight .ne,
+.highlight .nf,
+.highlight .ni,
+.highlight .nl,
+.highlight .nn,
+.highlight .no,
+.highlight .nt,
+.highlight .nv,
+.highlight .nx,
+.highlight .py,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi,
+.highlight .vm {
+    color: #cdd6f4;
+}
+
+/* Class names */
+.highlight .nc {
+    color: #f9e2af;
+}
+
+/* Function names */
+.highlight .nf {
+    color: #89b4fa;
+}
+
+/* Operators */
+.highlight .o,
+.highlight .ow {
+    color: #89dceb;
+}
+
+/* Punctuation */
+.highlight .p {
+    color: #cdd6f4;
+}
+
+/* Error */
+.highlight .err {
+    color: #f38ba8;
+    background-color: transparent;
+}
+
+/* Generic */
+.highlight .gd {
+    color: #f38ba8;
+}
+
+.highlight .gi {
+    color: #a6e3a1;
+}
+
+.highlight .gh {
+    color: #89b4fa;
+    font-weight: bold;
+}
+
+.highlight .gu {
+    color: #94e2d5;
+    font-weight: bold;
+}
+
+/* Line numbers */
+.highlight .lineno {
+    color: #6c7086;
+    padding-right: var(--space-sm);
+    border-right: 1px solid rgba(99, 102, 241, 0.1);
+    margin-right: var(--space-sm);
+    user-select: none;
+}

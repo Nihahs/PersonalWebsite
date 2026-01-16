@@ -1,0 +1,35 @@
+---
+layout: default
+title: Tags
+---
+<div class="blog-container">
+    <h1 class="section-title">Tags</h1>
+    <p class="blog-intro">Browse posts by topic.</p>
+
+    {% assign tags = site.posts | map: "tags" | uniq | compact | sort %}
+
+    <div class="tags-cloud">
+        {% for tag in tags %}
+        <a href="#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+        {% endfor %}
+    </div>
+
+    {% for tag in tags %}
+    <section class="tag-section" id="{{ tag | slugify }}">
+        <h2 class="tag-title">{{ tag }}</h2>
+        <ul class="post-list">
+            {% for post in site.posts %}
+            {% if post.tags contains tag %}
+            <li class="post-list-item">
+                <a href="{{ post.url | relative_url }}">
+                    <h3 class="post-list-title">{{ post.title }}</h3>
+                    <p class="post-list-excerpt">{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}</p>
+                    <time class="post-meta">{{ post.date | date: "%B %d, %Y" }}</time>
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </section>
+    {% endfor %}
+</div>

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="blog-container">
+    <h1 class="section-title">{{ page.title }}</h1>
+    {{ content }}
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li class="post-list-item">
+            <a href="{{ post.url | relative_url }}">
+                <h2 class="post-list-title">{{ post.title }}</h2>
+                <p class="post-list-excerpt">{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}</p>
+                <time class="post-meta">{{ post.date | date: "%B %d, %Y" }}</time>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

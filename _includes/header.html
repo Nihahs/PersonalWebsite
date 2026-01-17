@@ -1,17 +1,17 @@
 <!-- Navigation -->
 <nav class="navbar">
     <div class="nav-logo">
-        <a href="/">
+        <a href="{{ '/' | relative_url }}">
             <span class="logo-text">M</span>
             <span class="logo-dot"></span>
         </a>
     </div>
     <ul class="nav-links">
-        <li><a href="/#home" class="nav-link">Home</a></li>
-        <li><a href="/#about" class="nav-link">About</a></li>
-        <li><a href="/#life" class="nav-link">Life</a></li>
-        <li><a href="/blog/" class="nav-link{% if page.url contains '/blog/' %} active{% endif %}">Blog</a></li>
-        <li><a href="/#contact" class="nav-link">Connect</a></li>
+        <li><a href="{{ '/' | relative_url }}#home" class="nav-link">Home</a></li>
+        <li><a href="{{ '/' | relative_url }}#about" class="nav-link">About</a></li>
+        <li><a href="{{ '/' | relative_url }}#life" class="nav-link">Life</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}" class="nav-link{% if page.url contains '/blog/' %} active{% endif %}">Blog</a></li>
+        <li><a href="{{ '/' | relative_url }}#contact" class="nav-link">Connect</a></li>
     </ul>
     <div class="nav-toggle" id="nav-toggle">
         <span></span>

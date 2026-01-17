@@ -2,7 +2,7 @@ title: "Shahin's Blog"
 description: "Engineering essays on shipping iOS apps, scope decisions, and AI-assisted development"
 author: "Mohammed Shahin Kamarudeen"
 url: "https://nihahs.github.io"
-baseurl: ""
+baseurl: "/PersonalWebsite"
 timezone: Asia/Kolkata
 
 markdown: kramdown

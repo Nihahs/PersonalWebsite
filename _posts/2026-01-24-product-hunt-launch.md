@@ -15,17 +15,17 @@ This post is about what actually changed between those launches. Spoiler: it was
 
 My first PH launch was back in 2015. I was one of three cofounders at an early-stage startup. We had a small but motivated team, a shared network to tap into, and the nervous energy of people who genuinely believed in what we were building. We finished at a respectable #12.
 
-![alt text](image.png)
+![Product Hunt launch 2015 - #12]({{ '/assets/images/ph-launch-2015.png' | relative_url }})
 
 Four years later, I did my second launch. This time, I was an employee at a 10-member VC-backed startup. We had marketing support, a Slack channel full of people ready to upvote and comment, and the kind of social proof that comes from having raised money. We broke into the top #5.
 
-![alt text](image-1.png)
+![Product Hunt launch 2019 - #5]({{ '/assets/images/ph-launch-2019.png' | relative_url }})
 
 And now, seven years later, I launched [PurrPilot](https://purrpilot.com)—an app I built over a holiday break. No cofounders. No marketing team. Just me, my cats, and an extremely niche idea.
 
 It started at #20. Every few minutes, I watched it slide down. At one point it dropped past #60. It finally landed at #53.
 
-![alt text](image-2.png)
+![Product Hunt launch 2026 - #53]({{ '/assets/images/ph-launch-2026.png' | relative_url }})
 
 ## What Actually Changed
 

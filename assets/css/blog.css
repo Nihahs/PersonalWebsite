@@ -45,6 +45,11 @@
     gap: var(--space-sm);
 }
 
+.blog .reading-time {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
 .blog .post-header {
     margin-bottom: var(--space-lg);
     padding-bottom: var(--space-md);
